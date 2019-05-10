@@ -1,0 +1,75 @@
+body {
+  font-size: 12pt;
+  font-family: Arial, sans-serif;
+  color: black;
+  line-height: 25pt;
+  padding: 5px;
+  padding-bottom: 50px;
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 18pt;
+  line-height: 40px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+img {
+  float: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #3CB371;
+}
+
+a:hover, a:active {
+  color: green;
+}
+
+p {
+  text-align: justify;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 30px;
+}
+
+#logo {
+    height: 36px;
+    width: 60px;
+    margin-top: 30px;
+    float: left;
+}
+
+#menu {
+    height: 36px;
+    margin-top: 21px;
+    float: right;
+}
+
+.banner {
+  height: 60px;
+  width: 100%;
+}
+
+.clear {
+  clear: both;
+}
